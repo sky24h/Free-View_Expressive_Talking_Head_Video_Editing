@@ -1,0 +1,7 @@
+librosa<=0.9.1
+dlib
+imutils
+imageio
+imageio-ffmpeg
+moviepy
+huggingface_hub

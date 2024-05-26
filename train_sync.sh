@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2,3 python syncnet_train_pose_emotion.py --data_root ~/workspace/datasets/faces/obama_processed_256 --checkpoint_dir ../checkpoints/sync_pose_emotion_obama --audio_wt 0.4 --emotion 0.3 --pose_wt 0.3

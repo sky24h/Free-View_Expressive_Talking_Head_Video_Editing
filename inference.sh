@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python inference.py --face sources/input_video.mp4 --audio ./sources/input_video.mp4 --outfile results/output.mp4
+CUDA_VISIBLE_DEVICES=0 python inference.py --face sources/input_video.mp4 --audio ./sources/input_video.mp4 --outfile results/output_showcase.mp4 --showcase

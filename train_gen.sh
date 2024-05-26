@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python gen_train_pose_emotion_blink.py --data_root ~/workspace/datasets/faces/obama_processed_256 --syncnet_checkpoint_path ../checkpoints/sync_pose_emotion_obama/sync_best_model_epoch02222_step000060000.pth --checkpoint_dir ../checkpoints/gen_pose_emotion_blink_obama_test --audio_wt 0.4 --emotion 0.3 --pose_wt 0.3 --vgg_wt 0.2

@@ -1,7 +1,12 @@
 librosa<=0.9.1
+opencv-python
 dlib
 imutils
-imageio
-imageio-ffmpeg
+imageio[ffmpeg]==2.31.1
+imageio-ffmpeg==0.4.9
 moviepy
 huggingface_hub
+torchvision==0.17.1
+torch==2.2.1
+natsort
+safetensors==0.3.2
